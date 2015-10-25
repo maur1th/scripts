@@ -1,4 +1,6 @@
 colorscheme jellybeans 
 syntax on
 set nu
-set mouse=a
+if has(mouse)
+  set mouse=a
+endif
